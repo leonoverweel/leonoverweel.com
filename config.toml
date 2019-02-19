@@ -1,0 +1,4 @@
+baseURL = "https://leonoverweel.com/"
+languageCode = "en-us"
+title = "Leon Overweel"
+theme = "ananke"
