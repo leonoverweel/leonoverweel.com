@@ -16,7 +16,7 @@ tags:
 categories:
 - web
 
-description: "Intersect.Ninja was an open source website that used the Spotify API to find intersections in the artists and tracks different people like, based on their public playlists"
+description: "Intersect.Ninja was an open source website that used the Spotify API to find intersections in the artists and tracks different people like, based on their public playlists."
 ---
 
 Intersect.Ninja was an open source website that uses the Spotify Web API to find intersections in the artists and tracks different people like, based on their public playlists.
