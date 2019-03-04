@@ -1,6 +1,6 @@
 ---
 title: "Science Olympiad Robot"
-date: 2019-03-03T23:51:30Z
+date: 2013-12-15
 aliases:
   - /science-olympiad-robot
 
