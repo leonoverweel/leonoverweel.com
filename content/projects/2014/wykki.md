@@ -43,19 +43,19 @@ What makes Wykki tick is learning from user input. If Wykki comes across a quest
 
 First, Wykki asks the user to specify the subject of the new question, so it can separate what part of the input is what.
 
-{{< figure src="/images/projects/wykki/learning-1.png" >}}
+{{< figure src="/images/projects/2014/wykki/learning-1.png" >}}
 
 Second, Wykki lists all of Freebase’s properties for that subject. The user is asked to select the property that relates to the question he or she asked.
 
-{{< figure src="/images/projects/wykki/learning-2.png" >}}
+{{< figure src="/images/projects/2014/wykki/learning-2.png" >}}
 
 Third and finally, Wykki answers the question–and that’s the last thing the user sees.
 
-{{< figure src="/images/projects/wykki/learning-3.png" >}}
+{{< figure src="/images/projects/2014/wykki/learning-3.png" >}}
 
 In the background, however, Wykki has now learned to associate the question the user asked with the property the user specified. From the screenshots above, that means that, if another user asks “How many episodes of [TV Show] are there?” Wykki will be able to answer:
 
-{{< figure src="/images/projects/wykki/learning-4.png" >}}
+{{< figure src="/images/projects/2014/wykki/learning-4.png" >}}
 
 This separation of questions and subjects is therefore very powerful, because it allows Wykki to learn how to answer a new type of question about every single subject that question is relevant to all at once.
 

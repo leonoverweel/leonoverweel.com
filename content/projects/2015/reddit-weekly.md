@@ -22,7 +22,7 @@ There are a lot of small subreddits, especially science-y ones like [/r/EmDrive]
 
 [Reddit Weekly](http://web.archive.org/web/20181223202651/http://reddit-weekly.appspot.com/) makes sure you don't miss out on those top posts from your favorite small subreddits by sending you weekly email updates.
 
-{{< figure src="/images/projects/reddit-weekly/screenshot.png" title="The Reddit Weekly landing page" >}}
+{{< figure src="/images/projects/2015/reddit-weekly/screenshot.png" title="The Reddit Weekly landing page" >}}
 
 These updates are quick, customizable emails that are automatically delivered one morning a week, on a day that's convenient for you. All you do is specify the subreddit and the amount of content you'd like to see, and Reddit Weekly takes care of the rest. For text posts, you'll even get the post text right in the email.
 

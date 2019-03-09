@@ -24,7 +24,7 @@ PriNXT features three motors that control the machine’s main functions: two ta
 
 PriNXT has three motors: two control the X and Y motion, and the third lifts the pen.
 
-{{< figure src="/images/projects/prinxt/bottom-view.jpg" title="An annotated bottom view of PriNXT." >}}
+{{< figure src="/images/projects/2012/prinxt/bottom-view.jpg" title="An annotated bottom view of PriNXT." >}}
 
 
 The first motor, the one in the middle, is very straight forward – it has two long axes coming out of it that connect to two tiny gears that can drive around on a series of gear racks, moving the contraption about the Y axis. The second and third motor are a bit more complex, since they both point inward and have to move their power around a lot.
@@ -35,7 +35,7 @@ The left one, which controls motion on the X axis, basically just gears its powe
 
 The robot has a total of four sensors: two touch, one light, and one color.
 
-{{< figure src="/images/projects/prinxt/detail-view-1.jpg" title="The touch sensor was used for calibration." >}}
+{{< figure src="/images/projects/2012/prinxt/detail-view-1.jpg" title="The touch sensor was used for calibration." >}}
 
 The touch sensors serve the simple purpose to calibrate the robot – it blindly drives towards them until it registers that they’re pressed, which tells PriNXT where to start drawing. The color sensor is used as a signal light to show that the robot has finished calibrating.</p
  
@@ -47,7 +47,7 @@ For the design part, I mostly kept this project in my usual red/ white/ shades o
 
 A big part of PriNXT was to get it to draw complex shapes and pictures like the one in the picture below.
 
-{{< figure src="/images/projects/prinxt/wilsontech.png" title="The final printed image." >}}
+{{< figure src="/images/projects/2012/prinxt/wilsontech.png" title="The final printed image." >}}
 
 So this is how it works: first, I import the image into Paint.NET, where I make it black and white, and then edit it a bit to get a better looking result. Then, I export it as a .PBM file, which basically turns the whole picture into a bunch of 1’s and 0’s. Then, I import those 1’s and 0’s into NotePad++, where I reformat them to something my program will understand. Finally, I copy the results into a pre-made array in RobotC, fill in the height and width of gthe image, and I’m done!
 
@@ -66,7 +66,7 @@ You can download the program from [SourceForge here](http://sourceforge.net/proj
 
 ## Photo gallery
 
-{{< figure src="/images/projects/prinxt/gallery-1.jpg" >}}
-{{< figure src="/images/projects/prinxt/gallery-2.jpg" >}}
-{{< figure src="/images/projects/prinxt/gallery-3.jpg" >}}
-{{< figure src="/images/projects/prinxt/gallery-4.jpg" >}}
+{{< figure src="/images/projects/2012/prinxt/gallery-1.jpg" >}}
+{{< figure src="/images/projects/2012/prinxt/gallery-2.jpg" >}}
+{{< figure src="/images/projects/2012/prinxt/gallery-3.jpg" >}}
+{{< figure src="/images/projects/2012/prinxt/gallery-4.jpg" >}}

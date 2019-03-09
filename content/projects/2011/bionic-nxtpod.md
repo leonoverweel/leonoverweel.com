@@ -14,7 +14,7 @@ description: "Inspired by Festo's Bionic Tripod 3.0, this LEGO Mindstorms NXT ro
 
 Bionic NXTPod 3.0 was a flexible robot arm inspired by [Festo’s Bionic Tripod 3.0](http://web.archive.org/web/20160315002745/https://www.festo.com/cms/en_corp/11371.htm). It featured four custom linear actuators that pushed four independent flexible rods up and down, making the arm able to tilt in any direction fairly quickly. A fifth motor served two functions. Controlled purely mechanically using a differential, it was able to both pump air into the pneumatics and flip the switch to open and close the top gripper.</p>
 
-{{< figure src="/images/projects/bionic-nxtpod/bionic-nxtpod.jpg" title="Bionic NXTPod 3.0, overlaid with different arm positions." >}}
+{{< figure src="/images/projects/2011/bionic-nxtpod/bionic-nxtpod.jpg" title="Bionic NXTPod 3.0, overlaid with different arm positions." >}}
 
 With its five motors, Bionic NXTPod 3.0 could not be controlled by a single NXT intelligent brick, which inherently only supports three motors; not being very good at BlueTooth programming back then, I had the two communicate using a light and a light sensor.
 

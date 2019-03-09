@@ -29,4 +29,4 @@ These are the songs:
 
 The video took us a couple of days to make, and was an instant hit around school: we got a few hundred views right after we put it up. What's really cool, though, is that every year we've seen huge peaks in views the week before the AP World exam (thousands of views a day). The video now has **over 43,000 views** overall.
 
-{{< figure src="/images/projects/ap-world-greatest-hits/stats.jpeg" title="We see a huge peak in views every year right before the AP." >}}
+{{< figure src="/images/projects/2013/ap-world-greatest-hits/stats.jpeg" title="We see a huge peak in views every year right before the AP." >}}

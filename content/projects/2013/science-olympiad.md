@@ -14,7 +14,7 @@ description: "For the Robot Arm challenge of our local Science Olympiad, my frie
 
 In our local 2013 Science Olympiad, my friend Michael Chen and I did the Robot Arm challenge and ended up doing pretty well, finishing in 7th place.
 
-{{< figure src="/images/projects/science-olympiad/robot-arm-1.jpg" >}}
+{{< figure src="/images/projects/2013/science-olympiad/robot-arm-1.jpg" >}}
 
 Our arm featured four controllable DOMs: the base rotated, the arm moved at two joints, and the gripper opened and closed. Although it wasn’t driven by any motors, the gripper itself moved too, always keeping itself vertical assisted by gravity.
 
@@ -22,8 +22,8 @@ It was controlled using a Surface Pro running RobotC, connected to the base via 
 
 ## Photo gallery
 
-{{< figure src="/images/projects/science-olympiad/robot-arm-2.png" >}}
-{{< figure src="/images/projects/science-olympiad/robot-arm-3.png" >}}
-{{< figure src="/images/projects/science-olympiad/robot-arm-4.png" >}}
-{{< figure src="/images/projects/science-olympiad/robot-arm-5.png" >}}
-{{< figure src="/images/projects/science-olympiad/robot-arm-6.png" >}}
+{{< figure src="/images/projects/2013/science-olympiad/robot-arm-2.png" >}}
+{{< figure src="/images/projects/2013/science-olympiad/robot-arm-3.png" >}}
+{{< figure src="/images/projects/2013/science-olympiad/robot-arm-4.png" >}}
+{{< figure src="/images/projects/2013/science-olympiad/robot-arm-5.png" >}}
+{{< figure src="/images/projects/2013/science-olympiad/robot-arm-6.png" >}}
