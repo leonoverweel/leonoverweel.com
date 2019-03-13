@@ -7,6 +7,8 @@ aliases:
 tags:
 - language-python
 - tool-blockchain
+- tool-git
+- tool-github
 categories:
 - blockchain
 
