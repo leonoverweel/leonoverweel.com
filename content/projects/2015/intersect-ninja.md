@@ -43,8 +43,8 @@ That's the basic gist of the website. In the future, I'd like to add some more f
 
 ## Tech Stack and Source Code
 
-Intersect.Ninja's back end, which is responsible for authenticating with Spotify and serving up the site, runs on Python and is hosted on <a href="https://cloud.google.com/appengine/docs">Google App Engine</a>. The front end, which does all the computation, is a combination of JavaScript (with jQuery) and HTML/ CSS.
+Intersect.Ninja's back end, which is responsible for authenticating with Spotify and serving up the site, runs on Python and is hosted on [Google App Engine](https://cloud.google.com/appengine/docs). The front end, which does all the computation, is a combination of JavaScript (with jQuery) and HTML/ CSS.
 
-Intersect.Ninja is the first project I've made that's completely open source, and it's licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>. You can check out the source code <a href="https://github.com/leonoverweel/intersect.ninja/">on GitHub</a>.
+Intersect.Ninja is the first project I've made that's completely open source, and it's licensed under the MIT License. You can check out the source code [on GitHub](https://github.com/leonoverweel/intersect.ninja/).
 
 There's some pretty cool stuff in there, like the sorting algorithms that are easily chainable for tie breaking, and also some stuff that could use improvement, like the way enabling / disabling some of a user's playlist is implemented.
