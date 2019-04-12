@@ -1,18 +1,18 @@
 ---
-title: "Learning Algorithms and Regularization"
+title: "Exploration of Neural Network Learning Algorithms and Regularization"
 date: 2018-10-26
 
 tags:
 - language-python
-- library-numpy
-- library-matplotlib
+- ml-numpy
+- ml-matplotlib
 - model-convolutional-neural-network
 - tool-git
 - tool-github
 categories:
 - machine-learning
 
-description: "Implemented and experimented with different learning rules, learning rate schedules, and regularization techniques for training a convolutional neural network for the EMNIST handwritten character recognition task."
+description: "Implemented and experimented with different learning rules, learning rate schedules, and regularization techniques to train a convolutional neural network for the EMNIST handwritten character recognition task."
 ---
 
 For the [first coursework](http://www.inf.ed.ac.uk/teaching/courses/mlp/2018-19/mlp_cw1_2018-19.pdf) of the [Machine Learning Practical (MLP)](http://web.archive.org/web/20190411171457/http://www.inf.ed.ac.uk/teaching/courses/mlp/index-2018.html) course I took as part of my MSc Artificial Intelligence at the University of Edinburgh, we experimented with different ways of traiming a convolutional neural network to recognize handwritten digits in the [EMNIST dataset](https://www.nist.gov/node/1298471/emnist-dataset).
