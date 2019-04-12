@@ -26,9 +26,9 @@ I implemented and experimented with the following variations from the baseline:
 
 I also experimented with different hyperparameter settings for different combinations of these variations. From my experiments, I concluded that the Adam rule worked best for a three-layer model, and that L2 regularization helped speed up learning.
 
-For more details, including training curves and results tables, see my full report below (or [download it as PDF](/pdfs/projects/2018/uoe-mlp-1.pdf)).
+For more details, including training curves and results tables, see my full report below (or [download it as PDF](/pdfs/uoe-mlp-1.pdf)).
 
-<embed class="pdf" src="/pdfs/projects/2018/uoe-mlp-1.pdf" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+<embed class="pdf" src="/pdfs/uoe-mlp-1.pdf" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
 
 One thing I learned from this coursework is that I should have been plotting training curves for both the training and validation data sets as well, since training set curves alone do not say much about whether the model is still learning generalizable information. Another is that I should only report final performance on the test set, not training curves.
 
