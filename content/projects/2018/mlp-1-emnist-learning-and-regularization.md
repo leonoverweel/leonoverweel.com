@@ -1,6 +1,8 @@
 ---
 title: "Exploration of Neural Network Learning Algorithms and Regularization"
 date: 2018-10-26
+aliases:
+  - /mlp-1
 
 tags:
 - language-python
