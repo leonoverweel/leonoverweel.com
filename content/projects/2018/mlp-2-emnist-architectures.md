@@ -1,6 +1,6 @@
 ---
 title: "Exploration of Convolutional Neural Network Architectures"
-date: 2019-04-12T14:37:46+01:00
+date: 2018-11-23
 aliases:
   - /mlp-2
 
@@ -18,7 +18,7 @@ categories:
 description: "Implemented convolutional and max-pooling layers of a convolutional neural network and experimented with different network architectures on the EMNIST handwritten character recognition task."
 ---
 
-This is the [second coursework](http://www.inf.ed.ac.uk/teaching/courses/mlp/2018-19/mlp_cw2_2018-19.pdf) for semester one of the the [Machine Learning Practical (MLP)](http://web.archive.org/web/20190411171457/http://www.inf.ed.ac.uk/teaching/courses/mlp/index-2018.html) course I took as part of my MSc Artificial Intelligence at the University of Edinburgh. For this coursework, I experimented with many different convolutional neural network architectures, and found several improvements over the baseline for recognizing handwritten letters and numbers in the [EMNIST dataset](https://www.nist.gov/node/1298471/emnist-dataset).
+This is the [second coursework](http://www.inf.ed.ac.uk/teaching/courses/mlp/2018-19/mlp_cw2_2018-19.pdf) for semester one of the [Machine Learning Practical (MLP)](http://web.archive.org/web/20190411171457/http://www.inf.ed.ac.uk/teaching/courses/mlp/index-2018.html) course I took as part of my MSc Artificial Intelligence at the University of Edinburgh. For this coursework, I experimented with many different convolutional neural network architectures, and found several improvements over the baseline for recognizing handwritten letters and numbers in the [EMNIST dataset](https://www.nist.gov/node/1298471/emnist-dataset).
 
 The implementation part was relatively low-level, using numpy and SciPy to implement convolutional and max pooling layers inside the [MLP framework](https://github.com/CSTR-Edinburgh/mlpractical) in Python.
 
