@@ -11,11 +11,11 @@ tags:
 - ml-plotly
 - ml-pytorch
 - model-long-short-term-memory
-- model-deep-q-learning
+- model-deep-q-network
 - tool-git
 - tool-github
 categories:
-- 
+- machine-learning
 
 description: "Experimented with several approaches to encourage exploration for a reinforcement learning agent trained to play text-based games in the TextWorld environment."
 ---
