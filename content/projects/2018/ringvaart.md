@@ -122,8 +122,22 @@ And then **we finished at 6:17 p.m. after rowing for 10 hours, 8 minutes, and 16
 
 {{< figure src="/images/projects/2018/ringvaart/medal.jpg" caption="Our medal for participating in the 43rd EY-Parthenon Ringvaart Regatta." >}}
 
+After we finished, some friends were nice enough to take the boat out of the water, cleaned it and put it inside while we received flowers and beers from our supporters. The Ringvaart is also followed by a music festival, but most people who rowed the race don't really make it there. It was the same for us: after we ate our free pasta dinner, we went home and fell asleep.
+
 {{< figure src="/images/projects/2018/ringvaart/beers.jpg" caption="And, of course, our celebratory beers and flowers back at Proteus." >}}
 
 ## Aftermath
 
-TODO
+I'd like to say thanks to all these people who were a part of the Ringvaart for me:
+
+* My crewmates: Sigur, Wouter and Daniël
+* Our cox during the Ringvaart: Suzanne
+* Everyone who sponsored us and supported KiKa through [keihardroeien.nl](http://keihardroeien.nl)
+* Our main coaches: Dalia, Ruben, Suzanne, Sjoerd and Jayme
+* Everyone else who coached us: Jelle, Sophie Koopman, Marjolein Bouwmeester, Bastiaan Verton and Albert de Vries
+* Everyone who coxed us during training: Marieke van Leeuwen, Jari de Keijzer, Jelle, Janine Nijhuis, Wies van Wetten, Stephanie Wiechers, Sophie Bekker, Ruben van der Heijden, Marije IJpma, Lotte Wellens, Karim Osman, Jorn van Beek, Jeannet Liang, Dalia Aljawaheri and Anna Zonneveld
+* Everyone who biked with us during the Ringvaart
+* The Proteus RingCie
+* The organizing committee of the 43rd EY-Parthenon Ringvaart Regatta
+
+After the Ringvaart, two of us also decided to continue rowing: Daniël has joined Proteus and I've joined the Edinburgh University Boat Club.
