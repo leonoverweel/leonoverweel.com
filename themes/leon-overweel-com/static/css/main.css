@@ -1,3 +1,27 @@
 body {
     margin: 0;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: #7c81aa;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.centered-column {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.project-list > li > a{
+    font-weight: bold;
 }

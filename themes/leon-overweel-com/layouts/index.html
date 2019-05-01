@@ -4,32 +4,38 @@
 
 <h2>Current Projects</h2>
 
-Coming soon!
+<div class="centered-column">
+    Coming soon!
+</div>
 
 <h2>Past Projects</h2>
 
-<ul>
-{{ range .Data.Pages.GroupByDate "2006" }}
-    <li>{{ .Key }}
-    <ul>
-    {{ range .Pages }}
+<div class="centered-column">
+    {{ range .Data.Pages.GroupByDate "2006" }}
+    <h3>{{ .Key }}</h3>
+    <ul class="project-list">
+        {{ range .Pages }}
         <li><a href="{{.Permalink}}">{{ .Title }}</a>: {{ .Description }}</li>
-    {{ end}}
+        {{ end}}
     </ul>
-    </li>
-{{ end }}
-</ul>
+    {{ end }}
+</div>
 
 <h2>Skills</h2>
 
-Coming soon!
+<div class="centered-column">
+    Coming soon!
+</div>
 
 <h2>Rowing</h2>
 
-Coming soon!
-
+<div class="centered-column">
+    Coming soon!
+</div>
 <h2>Photography</h2>
 
-Coming soon!
+<div class="centered-column">
+    Coming soon!
+</div>
 
 {{ end }}
