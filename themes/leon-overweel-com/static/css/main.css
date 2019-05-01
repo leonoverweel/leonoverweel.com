@@ -40,10 +40,20 @@ a:hover {
     background-color: #e6ebf4;
 }
 
+.year-toggle:after {
+    content: '\02795';
+    font-size: 0.7rem;
+    float: right;
+}
+
+.year-open:after {
+    content: "\2796";
+}
+
 .year-projects {
     overflow: hidden;
 }
 
-.year-projects > ul > li > a{
+.year-projects>ul>li>a {
     font-weight: bold;
 }

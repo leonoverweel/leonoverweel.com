@@ -12,7 +12,7 @@
 
 <div class="centered-column">
     {{ range .Data.Pages.GroupByDate "2006" }}
-    <button class="year-toggle">{{ .Key }}</button>
+    <button class="year-toggle year-open">{{ .Key }}</button>
     <div class="year-projects">
         <ul>
             {{ range .Pages }}
@@ -30,8 +30,10 @@
     for (i = 0; i < acc.length; i++) {
         if (i >= 3) {
             acc[i].nextElementSibling.style.display = "none";
+            acc[i].classList.toggle("year-open");
         }
         acc[i].addEventListener("click", function () {
+            this.classList.toggle("year-open");
             var panel = this.nextElementSibling;
             if (panel.style.display === "none") {
                 panel.style.display = "block";
