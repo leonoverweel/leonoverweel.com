@@ -8,7 +8,17 @@ Coming soon!
 
 <h2>Past Projects</h2>
 
-Coming soon!
+<ul>
+{{ range .Data.Pages.GroupByDate "2006" }}
+    <li>{{ .Key }}
+    <ul>
+    {{ range .Pages }}
+        <li><a href="{{.Permalink}}">{{ .Title }}</a>: {{ .Description }}</li>
+    {{ end}}
+    </ul>
+    </li>
+{{ end }}
+</ul>
 
 <h2>Skills</h2>
 
