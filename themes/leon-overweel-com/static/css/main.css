@@ -80,6 +80,10 @@ a:hover {
     margin-bottom: -1rem;
 }
 
+div.category {
+    margin: 0 0.15rem -1rem 0.15rem;
+}
+
 .category-hackathon {
     background-color: #fcdede;
 }
