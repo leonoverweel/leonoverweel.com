@@ -12,14 +12,35 @@
 
 <div class="centered-column">
     {{ range .Data.Pages.GroupByDate "2006" }}
-    <h3>{{ .Key }}</h3>
-    <ul class="project-list">
-        {{ range .Pages }}
-        <li><a href="{{.Permalink}}">{{ .Title }}</a>: {{ .Description }}</li>
-        {{ end}}
-    </ul>
+    <button class="year-toggle">{{ .Key }}</button>
+    <div class="year-projects">
+        <ul>
+            {{ range .Pages }}
+            <li><a href="{{.Permalink}}">{{ .Title }}</a>: {{ .Description }}</li>
+            {{ end}}
+        </ul>
+    </div>
     {{ end }}
 </div>
+
+<script>
+    var acc = document.getElementsByClassName("year-toggle");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        if (i >= 3) {
+            acc[i].nextElementSibling.style.display = "none";
+        }
+        acc[i].addEventListener("click", function () {
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "none") {
+                panel.style.display = "block";
+            } else {
+                panel.style.display = "none";
+            }
+        });
+    }
+</script>
 
 <h2>Skills</h2>
 

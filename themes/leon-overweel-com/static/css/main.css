@@ -19,9 +19,31 @@ a:hover {
 .centered-column {
     max-width: 40rem;
     margin: 0 auto;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
-.project-list > li > a{
+.year-toggle {
+    background-color: #f2f4f9;
+    color: #333;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.year-toggle:hover {
+    background-color: #e6ebf4;
+}
+
+.year-projects {
+    overflow: hidden;
+}
+
+.year-projects > ul > li > a{
     font-weight: bold;
 }
