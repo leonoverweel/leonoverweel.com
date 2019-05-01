@@ -11,6 +11,19 @@
 <h2>Past Projects</h2>
 
 <div class="centered-column">
+    <p>
+        These are some projects I've done in the past that are either completed or no longer active. Broadly, they fall
+        into categories like 
+        {{ $list := (.Site.Taxonomies.categories) }}
+        {{ $len := (len $list) }}
+        {{ range $key, $value := $list.ByCount }}
+        <span class="category category-{{.Name}}">{{ humanize .Name }}</span>
+        {{- if lt (add $key 2) $len }}, {{end}}
+        {{- if eq (add $key 2) $len }}, and {{end}}
+        {{- if eq (add $key 1) $len }}.{{end}}
+        {{end}}
+    </p>
+
     {{ range .Data.Pages.GroupByDate "2006" }}
     <button class="year-toggle year-open">{{ .Key }}</button>
     <div class="year-projects">
