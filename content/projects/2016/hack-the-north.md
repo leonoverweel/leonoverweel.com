@@ -15,7 +15,7 @@ tags:
 - tool-git
 - tool-github
 categories:
-- robot
+- hackathon
 
 description: "Inspired by Twitch Plays Pokemon, my team and I created a little robot car that multiple people could drive around the room with their phones."
 ---

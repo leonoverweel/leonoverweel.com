@@ -5,7 +5,7 @@ date: 2017-05-13
 tags:
 - skill-event-planning
 categories:
-- event
+- hackathon
 
 description: "I co-founded and organized the first edition of HackDelft, TU Delft's hackathon."
 ---

@@ -2,6 +2,7 @@ body {
     margin: 0;
     color: #333;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
 }
 
 h2 {
@@ -37,7 +38,7 @@ a:hover {
     margin-bottom: 0.3rem;
 }
 
-.year-toggle:hover {
+.year-toggle:hover, .year-open {
     background-color: #e6ebf4;
 }
 
@@ -67,4 +68,38 @@ a:hover {
 
 .year-projects>ul>li {
     margin: 0 0 0.5rem 0;
+}
+
+.category {
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0.1rem 0.4rem 0.3rem 0.4rem;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-bottom: -1rem;
+}
+
+.category-hackathon {
+    background-color: #fcdede;
+}
+
+.category-machine-learning {
+    background-color: #eee2ff;
+}
+
+.category-robot {
+    background-color: #fcf8de;
+}
+
+.category-rowing {
+    background-color: #e2f6ff;
+}
+
+.category-video {
+    background-color: #fcdef7;
+}
+
+.category-web {
+    background-color: #e6fcde;
 }

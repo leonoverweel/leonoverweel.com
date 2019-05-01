@@ -10,7 +10,7 @@ tags:
 - tool-git
 - tool-github
 categories:
-- blockchain
+- hackathon
 
 description: "My team 'De Delftse Delegatie' got first place with a prototype for a blockchain-based app to help customs agencies detect smuggling in freight containers."
 ---

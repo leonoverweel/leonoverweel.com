@@ -16,7 +16,13 @@
     <div class="year-projects">
         <ul>
             {{ range .Pages }}
-            <li><a href="{{.Permalink}}">{{ .Title }}</a>: {{ .Description }}</li>
+            <li>
+                <a href="{{.Permalink}}">{{ .Title }}</a>
+                {{ range .Params.categories }}
+                <div class="category category-{{.}}">{{ humanize . }}</div>
+                {{ end }}
+                {{ .Description }}
+            </li>
             {{ end}}
         </ul>
     </div>
