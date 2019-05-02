@@ -13,11 +13,11 @@
 <div class="centered-column">
     <p>
         These are some projects I've done in the past that are either completed or no longer active. Broadly, they fall
-        into categories like 
+        into categories like
         {{ $list := (.Site.Taxonomies.categories) }}
         {{ $len := (len $list) }}
         {{ range $key, $value := $list.ByCount }}
-        <span class="category category-{{.Name}}">{{ humanize .Name }}</span>
+        <span class="category background-{{.Name}}">{{ humanize .Name }}</span>
         {{- if lt (add $key 2) $len }}, {{end}}
         {{- if eq (add $key 2) $len }}, and {{end}}
         {{- if eq (add $key 1) $len }}.{{end}}
@@ -25,14 +25,19 @@
     </p>
 
     {{ range .Data.Pages.GroupByDate "2006" }}
-    <button class="year-toggle year-open">{{ .Key }}</button>
+    <button class="year-toggle year-open">
+        {{ .Key }}
+        {{ range .Pages }}
+        {{ range .Params.categories }} <div class="category-bullet background-{{.}}"></div> {{ end }}
+        {{ end }}
+    </button>
     <div class="year-projects">
         <ul>
             {{ range .Pages }}
             <li>
                 <a href="{{.Permalink}}">{{ .Title }}</a>
                 {{ range .Params.categories }}
-                <div class="category category-{{.}}">{{ humanize . }}</div>
+                <div class="category background-{{.}}">{{ humanize . }}</div>
                 {{ end }}
                 {{ .Description }}
             </li>

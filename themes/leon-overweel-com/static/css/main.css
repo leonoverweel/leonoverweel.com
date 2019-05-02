@@ -1,3 +1,12 @@
+:root {
+    --color-hackathon-light: #fcdede;
+    --color-machine-learning-light: #eee2ff;
+    --color-robot-light: #fcf8de;
+    --color-rowing-light: #e2f6ff;
+    --color-video-light: #fcdef7;
+    --color-web-light: #e6fcde;
+}
+
 body {
     margin: 0;
     color: #333;
@@ -84,26 +93,34 @@ div.category {
     margin: 0 0.15rem -1rem 0.15rem;
 }
 
-.category-hackathon {
-    background-color: #fcdede;
+.category-bullet {
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
 }
 
-.category-machine-learning {
-    background-color: #eee2ff;
+.background-hackathon {
+    background-color: var(--color-hackathon-light);
 }
 
-.category-robot {
-    background-color: #fcf8de;
+.background-machine-learning {
+    background-color: var(--color-machine-learning-light);
 }
 
-.category-rowing {
-    background-color: #e2f6ff;
+.background-robot {
+    background-color: var(--color-robot-light);
 }
 
-.category-video {
-    background-color: #fcdef7;
+.background-rowing {
+    background-color: var(--color-rowing-light);
 }
 
-.category-web {
-    background-color: #e6fcde;
+.background-video {
+    background-color: var(--color-video-light);
+}
+
+.background-web {
+    background-color: var(--color-web-light);
 }
