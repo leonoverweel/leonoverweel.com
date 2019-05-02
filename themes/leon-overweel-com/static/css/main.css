@@ -36,7 +36,7 @@ a:hover {
     background-color: #f2f4f9;
     color: #333;
     cursor: pointer;
-    padding: 1rem;
+    padding: 0.7rem;
     width: 100%;
     text-align: left;
     border: none;
@@ -71,7 +71,7 @@ a:hover {
 
 .year-projects>ul {
     list-style-type: none;
-    padding: 0 1rem;
+    padding: 0 0.7rem;
     margin: 0.2rem 0 1rem 0;
 }
 
