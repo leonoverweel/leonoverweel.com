@@ -5,7 +5,7 @@ aliases:
   - /tu-delft-internship
 
 tags:
-- language-c-plus-plus
+- language-c++
 - tool-robot-operating-system
 - tool-qt
 categories:

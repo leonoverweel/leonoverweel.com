@@ -71,7 +71,18 @@
 <div class="centered-column">
     <h2>Skills 🛠</h2>
 
-    Coming soon!
+    <p>
+        Here are some of the things I have experience with. Each category is sorted by how many projects on this site
+        I've used the skill for, and each skill links to related projects.
+    </p>
+
+    <p><b>Programming languages:</b>
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        {{ if hasPrefix .Page.Title "language" }}
+        <a href="{{ .Page.Permalink }}">{{ strings.TrimPrefix "language-" .Page.Title }}</a> ({{ .Count }})
+        {{ end }}
+        {{ end }}
+    </p>
 </div>
 
 <div class="centered-column">
