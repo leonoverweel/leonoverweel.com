@@ -105,7 +105,8 @@
     <p><b>Machine learning models:</b>
         {{ range .Site.Taxonomies.tags.ByCount }}
         {{ if hasPrefix .Page.Title "model" }}
-        <a href="{{ .Page.Permalink }}">{{ replace (strings.TrimPrefix "model-" .Page.Title) "-" " " }}</a> ({{ .Count }})
+        <a href="{{ .Page.Permalink }}">{{ replace (strings.TrimPrefix "model-" .Page.Title) "-" " " }}</a>
+        ({{ .Count }})
         {{ end }}
         {{ end }}
     </p>
@@ -129,15 +130,27 @@
 </div>
 
 <div class="centered-column">
-    <h2>Rowing 🚣‍♂️</h2>
-
-    Coming soon!
-</div>
-
-<div class="centered-column">
     <h2>Photography 📸</h2>
 
-    Coming soon!
+    <p>Here's a collection of some photo's I've taken and added to my <a href="https://unsplash.com/@leonoverweel">my
+            Unsplash profile</a>.</p>
 </div>
+
+<div class="centered-column-wide photo-container">
+    <div><img class="photo" src="https://source.unsplash.com/mgHMNt38OJc"></div>
+    <div><img class="photo" src="https://source.unsplash.com/GZd3l4Yxdxs"></div>
+    <div><img class="photo" src="https://source.unsplash.com/F10a9L4noiI"></div>
+    <div><img class="photo" src="https://source.unsplash.com/HdjRAOhjIUA"></div>
+    <div><img class="photo" src="https://source.unsplash.com/FPgnKBTrk5Y"></div>
+    <div><img class="photo" src="https://source.unsplash.com/TdU4sbTNMaQ"></div>
+    <div><img class="photo" src="https://source.unsplash.com/RinbHrn1iKU"></div>
+    <div><img class="photo" src="https://source.unsplash.com/RPJ3o0slFqk"></div>
+    <div><img class="photo" src="https://source.unsplash.com/3zx8hP1OrCI"></div>
+    <div><img class="photo" src="https://source.unsplash.com/4_VltVjq_TU"></div>
+    <div><img class="photo" src="https://source.unsplash.com/FGWiUw9Q1_I"></div>
+    <div><img class="photo" src="https://source.unsplash.com/6usr7NKxxWQ"></div>
+</div>
+
+<div style="height:5rem;">.</div>
 
 {{ end }}

@@ -33,7 +33,13 @@ a:hover {
 .centered-column {
     max-width: 40rem;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.centered-column-wide {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
 }
 
 .year-toggle {
@@ -127,4 +133,25 @@ div.category {
 
 .background-web {
     background-color: var(--color-web-light);
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
+}
+
+.photo-container>div {
+    height: calc((50rem - 3 * 0.5rem) / 4);
+    width: 100%;
+    background-color: #f2f4f9;
+    display: grid;
+    grid-template: 1fr / 1fr;
+}
+
+.photo {
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
+    justify-self: center;
 }
