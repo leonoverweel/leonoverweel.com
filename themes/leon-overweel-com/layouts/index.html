@@ -26,10 +26,10 @@
 
     {{ range .Data.Pages.GroupByDate "2006" }}
     <button class="year-toggle year-open">
-        {{ .Key }}
-        {{ range .Pages }}
-        {{ range .Params.categories }} <div class="category-bullet background-{{.}}"></div> {{ end }}
-        {{ end }}
+        {{- .Key -}}
+        {{- range .Pages -}}
+        {{- range .Params.categories -}}<div class="category-bullet background-{{.}}"></div>{{- end -}}
+        {{- end -}}
     </button>
     <div class="year-projects">
         <ul>
