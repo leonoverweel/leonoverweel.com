@@ -14,7 +14,11 @@ body {
     line-height: 1.5rem;
 }
 
-h2 {
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
     text-align: center;
 }
 
@@ -43,7 +47,6 @@ a:hover {
     outline: none;
     transition: 0.3s;
     font-size: 1rem;
-    font-weight: bold;
     margin-bottom: 0.3rem;
 }
 
