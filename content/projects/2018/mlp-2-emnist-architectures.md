@@ -5,13 +5,13 @@ aliases:
   - /mlp-2
 
 tags:
-- language-python
-- ml-numpy
-- ml-matplotlib
-- ml-scipy
-- model-convolutional-neural-network
-- tool-git
-- tool-github
+- language-Python
+- ml-NumPy
+- ml-Matplotlib
+- ml-SciPy
+- model-Convolutional-Neural-Network
+- tool-Git
+- tool-GitHub
 categories:
 - machine-learning
 

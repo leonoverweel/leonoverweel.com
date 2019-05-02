@@ -5,10 +5,10 @@ aliases:
   - /world-port-hackathon-2016
 
 tags:
-- language-python
-- tool-blockchain
-- tool-git
-- tool-github
+- language-Python
+- tool-Blockchain
+- tool-Git
+- tool-GitHub
 categories:
 - hackathon
 

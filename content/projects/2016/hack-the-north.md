@@ -5,15 +5,15 @@ aliases:
   - /hack-the-north-2016
 
 tags:
-- language-html
-- language-css
-- language-python
-- language-javascript
-- tool-arduino
-- tool-firebase
-- tool-google-app-engine
-- tool-git
-- tool-github
+- language-HTML
+- language-CSS
+- language-Python
+- language-JavaScript
+- tool-Arduino
+- tool-Firebase
+- tool-Google-App-Engine
+- tool-Git
+- tool-GitHub
 categories:
 - hackathon
 

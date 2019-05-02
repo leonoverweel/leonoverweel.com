@@ -3,7 +3,7 @@ title: "HackDelft"
 date: 2017-05-13
 
 tags:
-- skill-event-planning
+- skill-Event-Planning
 categories:
 - hackathon
 

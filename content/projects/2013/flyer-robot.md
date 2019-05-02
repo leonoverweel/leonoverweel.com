@@ -5,7 +5,7 @@ aliases:
   - /flyer-robot
 
 tags:
-- language-robot-c
+- language-RobotC
 categories:
 - robot
 

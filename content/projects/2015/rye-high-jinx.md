@@ -5,10 +5,11 @@ aliases:
   - /rye-high-jinx
 
 tags:
-- skill-editing
-- skill-directing
-- skill-producing
-- tool-vegas-pro
+- skill-Editing
+- skill-Directing
+- skill-Producing
+- skill-Cinematography
+- tool-Vegas-Pro
 categories:
 - video
 

@@ -5,11 +5,11 @@ aliases:
   - /mugsy-website
 
 tags:
-- language-python
-- language-html
-- language-css
-- language-javascript
-- tool-google-app-engine
+- language-Python
+- language-HTML
+- language-CSS
+- language-JavaScript
+- tool-Google-App-Engine
 categories:
 - web
 

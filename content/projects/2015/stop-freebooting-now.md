@@ -5,11 +5,11 @@ aliases:
   - /stop-freebooting-now
 
 tags:
-- language-python
-- language-css
-- language-html
-- language-javascript
-- tool-google-app-engine
+- language-Python
+- language-CSS
+- language-HTML
+- language-JavaScript
+- tool-Google-App-Engine
 categories:
 - web
 

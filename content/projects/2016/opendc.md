@@ -3,10 +3,10 @@ title: "OpenDC"
 date: 2016-06-01
 
 tags:
-- language-python
-- tool-flask
-- tool-git
-- tool-github
+- language-Python
+- tool-Flask
+- tool-Git
+- tool-GitHub
 categories:
 - web
 

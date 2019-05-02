@@ -3,11 +3,11 @@ title: "Modeling Train Commuter Stress for Dutch Cities"
 date: 2018-11-15
 
 tags:
-- language-python
-- ml-numpy
-- ml-matplotlib
-- tool-git
-- tool-github
+- language-Python
+- ml-NumPy
+- ml-Matplotlib
+- tool-Git
+- tool-GitHub
 categories:
 - web
 

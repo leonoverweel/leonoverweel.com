@@ -6,6 +6,7 @@ aliases:
 
 tags:
 - rowing
+- skill-Event-Planning
 categories:
 - rowing
 

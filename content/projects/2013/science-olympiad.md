@@ -5,7 +5,7 @@ aliases:
   - /science-olympiad-robot
 
 tags:
-- language-robot-c
+- language-RobotC
 categories:
 - robot
 

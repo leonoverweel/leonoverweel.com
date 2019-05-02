@@ -5,9 +5,9 @@ aliases:
   - /dutch-hackathon-list
 
 tags:
-- tool-github
-- tool-git
-- tool-github-page
+- tool-GitHub
+- tool-Git
+- tool-GitHub-Pages
 categories:
 - web
 

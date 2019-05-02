@@ -5,9 +5,9 @@ aliases:
   - /skype-car
 
 tags:
-- tool-lego-mindstorms
-- language-css
-- language-html
+- tool-LEGO-Mindstorms
+- language-CSS
+- language-HTML
 categories:
 - robot
 

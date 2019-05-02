@@ -4,6 +4,8 @@ date: 2012-08-01
 aliases:
   - /fccysf
 
+tags:
+- skill-Cinematography
 categories:
 - video
 

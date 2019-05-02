@@ -5,11 +5,11 @@ aliases:
   - /link-syncer
 
 tags:
-- language-python
-- language-html
-- language-javascript
-- language-css
-- tool-google-app-engine
+- language-Python
+- language-HTML
+- language-JavaScript
+- language-CSS
+- tool-Google-App-Engine
 categories:
 - web
 

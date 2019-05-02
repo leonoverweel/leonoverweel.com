@@ -5,14 +5,14 @@ aliases:
   - /intersect.ninja
 
 tags:
-- api-spotify
-- library-jquery
-- language-css
-- language-html
-- language-javascript
-- tool-google-app-engine
-- tool-git
-- tool-github
+- api-Spotify
+- library-jQuery
+- language-CSS
+- language-HTML
+- language-JavaScript
+- tool-Google-App-Engine
+- tool-Git
+- tool-GitHub
 categories:
 - web
 

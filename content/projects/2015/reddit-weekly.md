@@ -5,11 +5,11 @@ aliases:
   - /reddit-weekly
 
 tags:
-- api-reddit
-- language-python
-- language-css
-- language-html
-- tool-google-app-engine
+- api-Reddit
+- language-Python
+- language-CSS
+- language-HTML
+- tool-Google-App-Engine
 categories:
 - web
 

@@ -5,12 +5,12 @@ aliases:
   - /mlp-1
 
 tags:
-- language-python
-- ml-numpy
-- ml-matplotlib
-- model-convolutional-neural-network
-- tool-git
-- tool-github
+- language-Python
+- ml-NumPy
+- ml-Matplotlib
+- model-Convolutional-Neural-Network
+- tool-Git
+- tool-GitHub
 categories:
 - machine-learning
 

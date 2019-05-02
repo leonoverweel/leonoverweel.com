@@ -5,7 +5,7 @@ aliases:
   - /bionic-nxtpod-3.0
 
 tags:
-- tool-lego-mindstorms
+- tool-LEGO-Mindstorms
 categories:
 - robot
 

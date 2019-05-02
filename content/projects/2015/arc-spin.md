@@ -5,11 +5,11 @@ aliases:
   - /arc-spin
 
 tags:
-- language-html
-- language-css
-- language-javascript
-- language-python
-- tool-google-app-engine
+- language-HTML
+- language-CSS
+- language-JavaScript
+- language-Python
+- tool-Google-App-Engine
 categories:
 - web
 

@@ -5,8 +5,8 @@ aliases:
   - /wykki
 
 tags:
-- language-python
-- tool-google-app-engine
+- language-Python
+- tool-Google-App-Engine
 categories:
 - web
 

@@ -5,7 +5,7 @@ aliases:
   - /prinxt
 
 tags:
-- language-robot-c
+- language-RobotC
 categories:
 - robot
 

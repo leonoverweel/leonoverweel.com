@@ -3,12 +3,12 @@ title: "Reinforcement Learning Soccer Bots"
 date: 2019-03-29
 
 tags:
-- language-python
-- ml-numpy
-- ml-pytorch
-- model-deep-q-network
-- tool-git
-- tool-github
+- language-Python
+- ml-NumPy
+- ml-PyTorch
+- model-Deep-Q-Network
+- tool-Git
+- tool-GitHub
 categories:
 - machine-learning
 

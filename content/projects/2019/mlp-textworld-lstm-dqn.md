@@ -5,15 +5,15 @@ aliases:
   - /textworld
 
 tags:
-- language-python
-- ml-matplotlib
-- ml-numpy
-- ml-plotly
-- ml-pytorch
-- model-long-short-term-memory
-- model-deep-q-network
-- tool-git
-- tool-github
+- language-Python
+- ml-Matplotlib
+- ml-NumPy
+- ml-Plotly
+- ml-PyTorch
+- model-Long-Short-Term-Memory
+- model-Deep-Q-Network
+- tool-Git
+- tool-GitHub
 categories:
 - machine-learning
 

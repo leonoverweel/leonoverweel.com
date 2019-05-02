@@ -5,7 +5,7 @@ aliases:
   - assembly-game
 
 tags:
-- language-assembly
+- language-Assembly
 
 description: "For TI1406 lab, I made an Assembly game much like Arc Spin, along with a few other cool projects."
 ---
