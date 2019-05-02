@@ -72,14 +72,57 @@
     <h2>Skills 🛠</h2>
 
     <p>
-        Here are some of the things I have experience with. Each category is sorted by how many projects on this site
-        I've used the skill for, and each skill links to related projects.
+        Here are some of the things I have experience with. Each category is sorted by how many projects I've used the
+        skill for, and each skill links to related projects.
     </p>
 
     <p><b>Programming languages:</b>
         {{ range .Site.Taxonomies.tags.ByCount }}
         {{ if hasPrefix .Page.Title "language" }}
-        <a href="{{ .Page.Permalink }}">{{ strings.TrimPrefix "language-" .Page.Title }}</a> ({{ .Count }})
+        <a href="{{ .Page.Permalink }}">{{ replace (strings.TrimPrefix "language-" .Page.Title) "-" " " }}</a>
+        ({{ .Count }})
+        {{ end }}
+        {{ end }}
+    </p>
+
+    <p><b>Technical tools:</b>
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        {{ if hasPrefix .Page.Title "tool" }}
+        <a href="{{ .Page.Permalink }}">{{ replace (strings.TrimPrefix "tool-" .Page.Title) "-" " " }}</a>
+        ({{ .Count }})
+        {{ end }}
+        {{ end }}
+    </p>
+
+    <p><b>Machine learning packages:</b>
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        {{ if hasPrefix .Page.Title "ml" }}
+        <a href="{{ .Page.Permalink }}">{{ replace (strings.TrimPrefix "ml-" .Page.Title) "-" " " }}</a> ({{ .Count }})
+        {{ end }}
+        {{ end }}
+    </p>
+
+    <p><b>Machine learning models:</b>
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        {{ if hasPrefix .Page.Title "model" }}
+        <a href="{{ .Page.Permalink }}">{{ replace (strings.TrimPrefix "model-" .Page.Title) "-" " " }}</a> ({{ .Count }})
+        {{ end }}
+        {{ end }}
+    </p>
+
+    <p><b>Web APIs:</b>
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        {{ if hasPrefix .Page.Title "api" }}
+        <a href="{{ .Page.Permalink }}">{{ replace (strings.TrimPrefix "api-" .Page.Title) "-" " " }}</a> ({{ .Count }})
+        {{ end }}
+        {{ end }}
+    </p>
+
+    <p><b>Creative + video skills:</b>
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        {{ if hasPrefix .Page.Title "skill" }}
+        <a href="{{ .Page.Permalink }}">{{ replace (strings.TrimPrefix "skill-" .Page.Title) "-" " " }}</a>
+        ({{ .Count }})
         {{ end }}
         {{ end }}
     </p>
