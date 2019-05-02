@@ -6,6 +6,7 @@ aliases:
 
 tags:
 - language-Python
+- language-Java
 - tool-Blockchain
 - tool-Git
 - tool-GitHub
