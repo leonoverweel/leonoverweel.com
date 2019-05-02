@@ -5,7 +5,7 @@ aliases:
   - /ap-world-greatest-hits
 
 tags:
-- tool-Vegas-Pro
+- skill-Vegas-Pro
 - skill-Editing
 - skill-Directing
 - skill-Cinematography

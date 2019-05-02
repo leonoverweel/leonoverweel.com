@@ -9,7 +9,7 @@ tags:
 - skill-Directing
 - skill-Producing
 - skill-Cinematography
-- tool-Vegas-Pro
+- skill-Vegas-Pro
 categories:
 - video
 

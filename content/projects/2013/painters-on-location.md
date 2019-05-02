@@ -5,7 +5,7 @@ aliases:
   - /painters-on-location
 
 tags:
-- tool-Vegas-Pro
+- skill-Vegas-Pro
 - skill-Editing
 - skill-Directing
 - skill-Cinematography
