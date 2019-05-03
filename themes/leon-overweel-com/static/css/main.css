@@ -144,7 +144,7 @@ div.category {
 .photo-container>div {
     height: calc((50rem - 3 * 0.5rem) / 4);
     width: 100%;
-    background-color: #f2f4f9;
+    background-color: #2d3854;
     display: grid;
     grid-template: 1fr / 1fr;
 }
