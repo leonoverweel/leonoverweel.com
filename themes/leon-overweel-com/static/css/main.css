@@ -42,6 +42,12 @@ a:hover {
     padding: 0.5rem 1rem;
 }
 
+.dark {
+    color: #f9fafc;
+    background-color: #192135;
+    width:100%;
+}
+
 .year-toggle {
     background-color: #f2f4f9;
     color: #333;
