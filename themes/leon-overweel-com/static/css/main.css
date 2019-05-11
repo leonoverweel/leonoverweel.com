@@ -44,7 +44,38 @@ a:hover {
 .dark {
     color: #f9fafc;
     background-color: #192135;
-    width:100%;
+    width: 100%;
+}
+
+.current-projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-projects > div {
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem 0;
+}
+
+.current-projects > div:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.current-projects > div:nth-child(even) {
+    align-self: flex-end;
+}
+
+.project-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin: 0 0 -0.4rem 0.7rem;
+}
+
+.project-content {
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    background-color: #e6ebf4;
 }
 
 .year-toggle {
@@ -52,16 +83,17 @@ a:hover {
     color: #333;
     cursor: pointer;
     padding: 0.7rem;
+    border-radius: 0.7rem;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.3s;
     font-size: 1rem;
-    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
 }
 
-.year-toggle:hover, .year-open {
+.year-toggle:hover {
     background-color: #e6ebf4;
 }
 
@@ -71,12 +103,19 @@ a:hover {
     float: right;
 }
 
+.year-open {
+    background-color: #e6ebf4;
+    border-radius: 0.7rem 0.7rem 0 0;
+}
+
 .year-open:after {
     content: "\2796";
 }
 
 .year-projects {
     overflow: hidden;
+    border: 2px solid #e6ebf4;
+    border-radius: 0 0 0.7rem 0.7rem;
 }
 
 .year-projects>ul>li>a {
@@ -86,7 +125,7 @@ a:hover {
 .year-projects>ul {
     list-style-type: none;
     padding: 0 0.7rem;
-    margin: 0.2rem 0 1rem 0;
+    margin: 0.2rem 0 0.2rem 0;
 }
 
 .year-projects>ul>li {
@@ -150,6 +189,7 @@ div.category {
     height: calc((50rem - 3 * 0.5rem) / 4);
     width: 100%;
     background-color: #2d3854;
+    border-radius: 0.7rem;
 }
 
 .photo-container>div>a {
