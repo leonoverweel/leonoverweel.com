@@ -96,6 +96,7 @@ a:hover {
     transition: 0.3s;
     font-size: 1rem;
     margin-top: 0.5rem;
+    margin-bottom: 0;
 }
 
 .year-toggle:hover {
