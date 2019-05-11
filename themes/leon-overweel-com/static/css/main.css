@@ -78,6 +78,10 @@ a:hover {
     background-color: #e6ebf4;
 }
 
+.project-content > p {
+    margin: 0;
+}
+
 .year-toggle {
     background-color: #f2f4f9;
     color: #333;

@@ -6,18 +6,12 @@
     <h2>Current Projects ✨</h2>
 </div>
 <div class="centered-column wide current-projects">
+    {{ range (where .Site.RegularPages.ByTitle "Section" "current" ) }}
     <div>
-        <div class="project-name">MSc Artificial Intelligence</div>
-        <div class="project-content">content</div>
+        <div class="project-name">{{ .Params.title }}</div>
+        <div class="project-content">{{ .Content }}</div>
     </div>
-    <div>
-        <div class="project-name">Dynamically Typed</div>
-        <div class="project-content">content</div>
-    </div>
-    <div>
-        <div class="project-name">Weekly.Cool</div>
-        <div class="project-content">content</div>
-    </div>
+    {{ end }}
 </div>
 
 <div class="centered-column">
