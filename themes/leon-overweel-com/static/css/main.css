@@ -121,6 +121,7 @@ a:hover {
     overflow: hidden;
     border: 2px solid #e6ebf4;
     border-radius: 0 0 0.7rem 0.7rem;
+    margin: 0;
 }
 
 .year-projects>ul>li>a {
