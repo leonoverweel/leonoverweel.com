@@ -33,13 +33,12 @@ a:hover {
 .centered-column {
     max-width: 40rem;
     margin: 0 auto;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
+    overflow: auto;
 }
 
-.centered-column-wide {
+.wide {
     max-width: 50rem;
-    margin: 0 auto;
-    padding: 0.5rem 1rem;
 }
 
 .dark {
