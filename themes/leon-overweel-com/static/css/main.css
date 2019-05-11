@@ -111,6 +111,7 @@ a:hover {
 .year-open {
     background-color: #e6ebf4;
     border-radius: 0.7rem 0.7rem 0 0;
+    margin-bottom: 0;
 }
 
 .year-open:after {
