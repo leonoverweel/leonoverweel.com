@@ -30,6 +30,16 @@ a:hover {
     text-decoration: none;
 }
 
+.divider-full {
+    height: 3rem;
+    width: 100%;
+}
+
+.divider-half {
+    height: 1.5rem;
+    width: 100%;
+}
+
 .hero {
     width: 100%;
     min-height: 50vh;
