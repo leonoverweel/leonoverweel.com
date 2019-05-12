@@ -43,6 +43,7 @@ a:hover {
 .hero {
     width: 100%;
     min-height: 50vh;
+    background-color: #192135;
     background-image: url("https://source.unsplash.com/GZd3l4Yxdxs");
     background-size: cover;
     background-position: bottom;
