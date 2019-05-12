@@ -30,7 +30,7 @@ $$ S = \min\_{\forall o \in O} \left( \alpha\_c c\_o + \alpha\_d d\_o + \alpha\_
 
 By scraping data from the Dutch national railway operator Nationale Spoorwegen (NS), I could then make the following plots of how "stressful" a commute to Amsterdam would be for each train station in the Netherlands, for different \\( \alpha \\) settings.
 
-{{< figure src="/images/projects/2018/stn-train-commuter-stress/maps.png" caption="Stress maps with different settings for \( \alpha \)s; green indicates low stress and red indicates high stress. Amsterdam Central Station (ASD) is marked in black. The mixed model uses my preferences as \( \alpha \) settings." >}}
+{{< figure src="/images/projects/2018/stn-train-commuter-stress/maps.png" title="Stress maps with different settings for \( \alpha \)s; green indicates low stress and red indicates high stress. Amsterdam Central Station (ASD) is marked in black. The mixed model uses my preferences as \( \alpha \) settings." >}}
 
 Using settings from the bottom-right mixed model, the best cities to commute from are mostly in the Randstad and the area north-west of Amsterdam. See Appendix A of the report for a list of the top-thirty stations according to this metric.
 

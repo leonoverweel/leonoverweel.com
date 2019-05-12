@@ -22,13 +22,13 @@ It features two degrees of freedom that can be manipulated independently, is con
 
 The robot itself has two motors. The first moves a single small gear that spins the turntable and pans the phone. The second is a little more complex; it drives a worm wheel through the center of the turntable, which, through another series of gears, is responsible for tilting.
 
-{{< figure src="/images/projects/2013/lumia-rig/pan.jpg" caption="View of the panning motor and gearing.">}}
+{{< figure src="/images/projects/2013/lumia-rig/pan.jpg" title="View of the panning motor and gearing.">}}
 
 To get rid of the obnoxiously high amount of vibrations caused by the Mindstorms NXT motors at high speeds, the entire base rests on the rubber shock absorbers that come with the NXT set.
 
 The remote is very minimalistic, featuring a symmetrical design with two motors on the sides that are used to input remote control data into the system, and nothing else. Both follow the red with shades of gray color scheme I’ve been using for most of my robots.
 
-{{< figure src="/images/projects/2013/lumia-rig/remote.jpg" caption="The remote control for the panning rig.">}}
+{{< figure src="/images/projects/2013/lumia-rig/remote.jpg" title="The remote control for the panning rig.">}}
 
 ## Software
 

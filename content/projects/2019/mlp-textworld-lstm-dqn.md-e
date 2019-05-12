@@ -37,7 +37,7 @@ We built our experiments on top of the Long-Short-Term-Memory Deep-Q-Network (LS
 
 We experimented with changing the length of the quest the agent had to complete to see which approach was best able to deal with the larger action spaces of longer quests. Our code is available [on GitHub](https://github.com/MariusUrbonas/long-short-term-memes). Although computational restrictions did not allow us to run enough experiments to get our error bars small enough to make any definitive conclusions, initial results for our novel approach, DQN-KM++, looked promising:
 
-{{< figure src="/images/projects/2019/mlp-textworld-lstm-dqn/bar-chart.png" caption="Mean scores with error bounds for our different models trained on games with quest lengths 1 through 4. Darker-shade bars represent means over the full 400 episodes; lighter-shade bars represent means over the last 50 episodes." >}}
+{{< figure src="/images/projects/2019/mlp-textworld-lstm-dqn/bar-chart.png" title="Mean scores with error bounds for our different models trained on games with quest lengths 1 through 4. Darker-shade bars represent means over the full 400 episodes; lighter-shade bars represent means over the last 50 episodes." >}}
 
 For a much more in-depth explanation of our project and our results, please see our report below (or [download it as PDF][report]):
 
