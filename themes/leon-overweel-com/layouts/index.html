@@ -18,8 +18,8 @@
     <h2>Past Projects ⏳</h2>
 
     <p>
-        These are some projects I've done in the past that are either completed or no longer active. Broadly, they fall
-        into categories like
+        These are some projects I've done in the past that are either finished or no longer active. There are 
+        {{ len (where .Pages "Section" "projects") }} projects, which broadly fall into categories like
         {{ $list := (.Site.Taxonomies.categories) }}
         {{ $len := (len $list) }}
         {{ range $key, $value := $list.ByCount }}
