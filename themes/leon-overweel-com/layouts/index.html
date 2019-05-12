@@ -30,7 +30,7 @@
         {{end}}
     </p>
 
-    {{ range .Data.Pages.GroupByDate "2006" }}
+    {{ range (where .Pages "Section" "projects").GroupByDate "2006" }}
     <button class="year-toggle year-open">
         {{- .Key -}}
         {{- range .Pages -}}
