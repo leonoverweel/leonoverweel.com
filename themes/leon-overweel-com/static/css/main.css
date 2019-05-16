@@ -23,10 +23,6 @@ h2 > a {
     text-decoration: none;
 }
 
-h1 {
-    text-align: center;
-}
-
 a {
     color: #7c81aa;
 }
@@ -47,7 +43,7 @@ a:hover {
 
 .hero {
     width: 100%;
-    min-height: 50vh;
+    min-height: 60vh;
     background-color: #192135;
     background-image: url("https://source.unsplash.com/GZd3l4Yxdxs");
     background-size: cover;
@@ -65,6 +61,26 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.hero > div > h1 {
+    margin-bottom: 0.5rem;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro > img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 6rem;
+    margin: 1rem 0;
+}
+
+.intro > div {
+    padding-right: 1rem;
 }
 
 .centered-column {
@@ -266,12 +282,32 @@ div.category {
 }
 
 @media screen and (max-width: 40rem) {
+    .hero > div > h1 {
+        text-align: center;
+        color: #2d3854;
+        margin-bottom: 1rem;
+    }
+
+    .intro {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .intro > img {
+        order: -1;
+    }
+
     .photo-container>div {
         height: calc(33vw - 2 * 0.5rem);
     }
 }
 
 @media screen and (max-width: 30rem) {
+    .intro > img {
+        height: 10rem;
+        width: 10rem;
+    }
+
     .photo-container {
         grid-template-columns: repeat(2, 1fr);
     }
