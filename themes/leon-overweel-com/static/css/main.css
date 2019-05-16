@@ -83,6 +83,22 @@ a:hover {
     padding-right: 1rem;
 }
 
+.social > a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social > a > div {
+    margin: 0.5rem 0.2rem 0 0;
+    background-color: #f2f4f9;
+    padding: 0.3rem 1rem 0.4rem 1rem;
+    border-radius: 0.7rem;
+}
+
+.social > a > div:hover { 
+    background-color: #e6ebf4;
+}
+
 .centered-column {
     max-width: 40rem;
     margin: 0 auto;
