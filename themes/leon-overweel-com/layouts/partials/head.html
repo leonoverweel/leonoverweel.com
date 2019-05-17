@@ -1,6 +1,15 @@
 <head>
+    <!-- "Leon Overweel" for the home page -->
     {{ if .IsHome }}
     <title>{{ .Site.Title}}</title>
+    <!-- "Tag | Leon Overweel" for list pages -->
+    {{ else if .IsNode }}
+    <!-- (split off category prefix from tag) -->
+    {{ $parts := split .Page.Title "-"}}
+    {{ $len := len $parts }}
+    {{ $name := last (sub $len 1) $parts}}
+    <title>{{ delimit $name " " }} | {{ .Site.Title }}</title>
+    <!-- "Title | Leon Overweel" for project pages -->
     {{ else }}
     <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
     {{ end }}
