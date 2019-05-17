@@ -81,6 +81,11 @@ figure>figcaption>p {
     height: 30rem;
 }
 
+.MathJax_Display {
+    overflow-x: auto;
+    display: block;
+}
+
 .divider-full {
     height: 3rem;
     width: 100%;
