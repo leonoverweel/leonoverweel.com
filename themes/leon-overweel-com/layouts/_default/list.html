@@ -2,8 +2,11 @@
 <div class="centered-column">
     <div class="divider-full"></div>
     <!-- Split off category prefix from tag -->
-    <h1>{{ range (last 1 (split .Title "-")) }}{{ . }}{{ end}}</h1>
-    <p>These are all my projects tagged <b>{{ range (last 1 (split .Title "-")) }}{{ . }}{{ end}}</b>:</p>
+    {{ $parts := split .Title "-"}}
+    {{ $len := len $parts }}
+    {{ $name := last (sub $len 1) $parts}}
+    <h1>{{ delimit $name " " }}</h1>
+    <p>These are all my projects tagged <b>{{ delimit $name " " }}</b>:</p>
     <ul>
         {{ range .Pages }}
         <li>
