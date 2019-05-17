@@ -22,4 +22,4 @@ The master, on the left, would turn the height the slave’s actuators needed to
 
 There's also a YouTube video of it in action:
 
-{{< youtube Hfwia3pJBWA>}}
+{{< youtube Hfwia3pJBWA youtube>}}

@@ -18,7 +18,7 @@ description: "What happens when a student and a teacher switch bodies? The 2015 
 
 _Rye High Jinx_ is the hour-long 2015 Senior Movie about Judson Ellis (a RHS senior) and Judd Rothstein (a RHS teacher), who switch bodies. I directed, co-produced, and co-edited the movie. The other main crew members were Michael Chen, Judd Rothstein, Judson Ellis, Alexandros Koutsogeorgas, and Tim Hardis. Check out the trailer below!
 
-{{< youtube x1fOBCbnqyg >}}
+{{< youtube x1fOBCbnqyg youtube >}}
 
 This was a super long project — the original idea was developed by a group of students who were seniors the year before us. The six of us then spent the first semester of senior year creating a 55-page script, and the second semester filming and editing the movie. It was a marathon, but it was a blast.
 

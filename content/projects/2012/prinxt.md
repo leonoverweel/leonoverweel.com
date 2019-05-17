@@ -14,7 +14,7 @@ description: "PriNXT was a LEGO Mindstorms NXT plotter robot that can 'print' lo
 
 PriNXT was a LEGO Mindstorms NXT plotter robot that could "print" low-resolution images onto a sheet of paper. Check out the YouTube video I made for it below, which has **over 220,000 views**.
 
-{{< youtube 3a1OcEXYsa0 >}}
+{{< youtube 3a1OcEXYsa0 youtube >}}
 
 ## Hardware
 

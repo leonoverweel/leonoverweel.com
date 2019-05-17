@@ -16,7 +16,7 @@ The Lumia Rig is a robot for panning and tilting a Lumia 928 Windows Phone using
 
 It features two degrees of freedom that can be manipulated independently, is controlled through Bluetooth via an easy to use remote, and rotates the phone exactly around where the lens is located. I’ll get into all those things individually after the video; building instructions are at the bottom of the page.
 
-{{< youtube 74MGAOGcO7w >}}
+{{< youtube 74MGAOGcO7w youtube >}}
 
 ## Hardware
 

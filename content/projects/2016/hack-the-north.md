@@ -24,7 +24,7 @@ Inspired by the online sensation [Twitch Plays Pokémon](https://en.wikipedia.or
 
 From 3D printing and an Arduino, to Firebase and Google App Engine, we used a ton of different technologies to get it off the floor. And in the end, it worked pretty well! See the video below:
 
-{{< youtube 6vglS4WpelY >}}
+{{< youtube 6vglS4WpelY youtube >}}
 
 Personally, I was responsible for the App Engine + Firebase backend, and I did some work on the website to control the robot as well.
 

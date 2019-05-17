@@ -16,7 +16,7 @@ The lab component of this course consisted of learning and programming in the [x
 
 One of the projects I did was assignment 8: using assembly to implement a game. Much inspired by [Arc Spin](http://leonoverweel.com/arc-spin), the point of the game is to keep moving as long as you can without hitting the moving obstacles. Here's a video demo of it running in a Debian virtual machine:
 
-{{< youtube X8D0pkEJID8 >}}
+{{< youtube X8D0pkEJID8 youtube >}}
 
 The players have to make sure their character does not hit the blue bars moving across the screen or the yellow bar at the top. They do so by moving their character down (by pressing _q_ for player 1 and _p_ for player 2), while the playing field continuously moves up faster and faster as the game progresses.
 

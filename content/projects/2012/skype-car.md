@@ -16,7 +16,7 @@ description: "Skype Car was a little robotic car that hundreds of people around 
 
 Skype Car was a little robotic car in a small, boxed off part of my room. Hundreds of people around the world could drive it around via the web and see a video feed of it via Skype, all in real time. Here's the YouTube video I made for it, which has <b>over 18,000 views</b>:
 
-{{< youtube 6nVB8Us3omk >}}
+{{< youtube 6nVB8Us3omk youtube >}}
 
 The process to play with Skype Car was long but not very hard. A user would go to [a web page](https://web.archive.org/web/20120113233722/http://justoverart.com/Skype%20Robot/Skype_NXT.html) and click the start button, which initiated an auto-answered Skype call with my computer. The user would then share their screen, after which they returned to the web page. Clicking the arrow keys on the site would change its background color, which, through the screenshare, was related back to my home computer screen.
 

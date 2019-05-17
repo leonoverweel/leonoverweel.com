@@ -14,7 +14,7 @@ description: "For our annual Science Research symposium, I built a demo robot ar
 
 For my Science Research presentation sophomore year, I built a demo robot to hand out the flyers/ programs to the people who came by. See the video I made of it below:
 
-{{< youtube p7zqB6b_CgY >}}
+{{< youtube p7zqB6b_CgY youtube >}}
 
 Device-wise, the robot consists of the following functional parts:
 

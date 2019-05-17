@@ -19,6 +19,6 @@ description: "A 2013 Rye Arts Center event for which I made a promo video."
 
 This is the promo video I made for the 2013 event:
 
-{{< youtube lnsA6FV0fwg >}}
+{{< youtube lnsA6FV0fwg youtube >}}
 
 The music is "On Top of the World" by Imagine Dragons.
