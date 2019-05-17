@@ -68,6 +68,11 @@ figure>figcaption>p {
     border: 0;
 }
 
+.pdf {
+    width: 100%;
+    height: 30rem;
+}
+
 .divider-full {
     height: 3rem;
     width: 100%;
