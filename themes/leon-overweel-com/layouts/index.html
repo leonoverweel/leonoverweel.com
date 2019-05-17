@@ -69,7 +69,10 @@
     {{ range (where .Site.RegularPages "Section" "current") }}
     <div>
         <div class="project-name">{{ .Params.title }}</div>
-        <div class="project-content">{{ .Content }}</div>
+        <div class="project-content">
+            <div><img src="{{ .Params.image }}"/></div>
+            {{ .Content }}
+        </div>
     </div>
     {{ end }}
 </div>

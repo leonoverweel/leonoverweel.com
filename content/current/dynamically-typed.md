@@ -1,6 +1,7 @@
 ---
 title: "Dynamically Typed"
 description: ""
+image: "images/current/dynamically-typed.png"
 weight: 1000
 ---
 

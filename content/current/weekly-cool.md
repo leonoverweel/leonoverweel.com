@@ -1,6 +1,7 @@
 ---
 title: "Weekly.Cool"
 description: ""
+image: "images/current/weekly-cool.png"
 weight: 0
 ---
 
