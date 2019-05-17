@@ -14,8 +14,6 @@ categories:
 description: "Scraped data about the Dutch rail network to visualize which cities provide the least stressful commute to Amsterdam central station."
 ---
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 This is the project I did for the [Social and Technological Networks](http://www.inf.ed.ac.uk/teaching/courses/stn/) course I took as part of my MSc Artificial Intelligence at the University of Edinbrugh. Using data from the Nederlandse Spoorwegen, I modeled which cities are best to commute from if you work near Amsterdam Central Station (ASD) but don't want to pay Amsterdam rent, based on the following factors:
 
 * **Crowdedness** \\( c \\): How busy the train is

@@ -15,8 +15,6 @@ categories:
 description: "Implemented and tuned eight different reinforcement learning algorithms to play a simple soccer game."
 ---
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 This project was the coursework for the [Reinforcement Learning (RL) course](https://www.inf.ed.ac.uk/teaching/courses/rl/) I took as part of my MSc Artificial Intelligence at the University of Edinburgh. In a mix of several simple stochastic environments and the (deprecated) [LARG/HFO](https://github.com/LARG/HFO) half-field offense soccer environment, I implemented eight different reinforcement learning algorithms.
 
 For the following algorithms, I followed pseudocode from [Sutton and Barto (2018)][sutton2018reinforcement]:
