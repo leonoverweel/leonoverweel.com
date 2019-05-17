@@ -16,6 +16,8 @@ body {
 
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    margin-bottom: 0.5rem;
 }
 
 h2>a {
@@ -31,12 +33,18 @@ a:hover {
     text-decoration: none;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+
 figure {
     margin: 0;
     background-color: #f2f4f9;
     border-radius: 0.7rem;
     overflow: hidden;
     margin-bottom: 0.7rem;
+    text-align: center;
 }
 
 figure>img {
