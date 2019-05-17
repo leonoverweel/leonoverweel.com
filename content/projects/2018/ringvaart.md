@@ -105,11 +105,11 @@ Because of this large bike-along crew, this was also the part of the Ringvaart w
 
 {{< figure src="/images/projects/2018/ringvaart/wouter-photo-1.jpg" >}}
 
-{{< youtube 1-pEusvscj4 >}}
+{{< youtube 1-pEusvscj4 youtube>}}
 
 {{< figure src="/images/projects/2018/ringvaart/wouter-photo-2.jpg" caption="Coming out from under the bridge in the video above." >}}
 
-{{< youtube sSCnaM_LUYU >}}
+{{< youtube sSCnaM_LUYU youtube >}}
 
 {{< figure src="/images/projects/2018/ringvaart/wouter-photo-3.jpg" caption="Rowing along the river beds that the municipality of Delft was rebuilding at the time." >}}
 
