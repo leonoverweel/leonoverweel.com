@@ -1,12 +1,14 @@
 {{ define "main" }}
 <div class="centered-column">
     <div class="divider-full"></div>
+    {{ if in .Title "-"}}
     <!-- Split off category prefix from tag -->
     {{ $parts := split .Title "-"}}
     {{ $len := len $parts }}
     {{ $name := last (sub $len 1) $parts}}
     <h1>{{ delimit $name " " }}</h1>
     <p>These are all my projects tagged <b>{{ delimit $name " " }}</b>:</p>
+    {{ end }}
     <ul>
         {{ range .Pages }}
         <li>

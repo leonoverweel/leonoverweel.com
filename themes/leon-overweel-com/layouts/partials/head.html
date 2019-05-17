@@ -3,7 +3,7 @@
     {{ if .IsHome }}
     <title>{{ .Site.Title}}</title>
     <!-- "Tag | Leon Overweel" for list pages -->
-    {{ else if .IsNode }}
+    {{ else if in .Page.Title "-" }}
     <!-- (split off category prefix from tag) -->
     {{ $parts := split .Page.Title "-"}}
     {{ $len := len $parts }}
