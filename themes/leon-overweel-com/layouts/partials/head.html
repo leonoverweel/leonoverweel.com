@@ -1,5 +1,9 @@
 <head>
-    <title>{{ .Site.Title }}</title>
-    <link rel="stylesheet" href="css/main.css">
+    {{ if .IsHome }}
+    <title>{{ .Site.Title}}</title>
+    {{ else }}
+    <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
+    {{ end }}
+    <link rel="stylesheet" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic|Poppins:semibold" rel="stylesheet">
 </head>
