@@ -94,12 +94,23 @@ a:hover {
 .social > a > div {
     margin: 0.5rem 0.5rem 0 0;
     background-color: #f2f4f9;
-    padding: 0.3rem 1rem 0.4rem 1rem;
     border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .social > a > div:hover { 
     background-color: #e6ebf4;
+}
+
+.social > a > div > img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.social > a > div > div {
+    padding: 0 0.7rem 0 0.4rem;
 }
 
 .centered-column {

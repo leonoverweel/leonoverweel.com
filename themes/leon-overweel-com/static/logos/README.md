@@ -1,0 +1,1 @@
+Logos source: [edent/SuperTinyIcons](https://github.com/edent/SuperTinyIcons)
