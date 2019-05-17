@@ -91,6 +91,28 @@ figure>figcaption>p {
     width: 100%;
 }
 
+.header {
+    background-color: #f2f4f9;
+    position: fixed;
+    width: 100%;
+}
+
+.header>div {
+    display: flex;
+}
+
+.header>div>div>a {
+    text-decoration: none;
+}
+
+.header>div>div>a>div {
+    padding: 0.7rem 0;
+}
+
+.header>div>div>a>div:last-of-type {
+    flex-grow: 1;
+}
+
 .hero {
     width: 100%;
     min-height: 60vh;
