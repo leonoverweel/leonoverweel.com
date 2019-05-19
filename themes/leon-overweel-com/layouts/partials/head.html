@@ -1,23 +1,32 @@
 <head>
-    <!-- Title (HTML tag and meta tag)-->
-    <!-- "Leon Overweel" for the home page -->
+    <!-- METADATA -->
+
+    <!-- Homepage -->
     {{ if .IsHome }}
     <title>{{ .Site.Title }}</title>
     <meta name="title" content="{{ .Site.Title }}">
-    <!-- "Tag | Leon Overweel" for list pages (split off category prefix from tag) -->
+    <meta name="description"
+        content="Hi, I'm Leon! I'm an MSc Artificial Intelligence student at the University of Edinburgh. Previously, I studied Computer Science at Delft University of Technology.">
+
+    <!-- List pages -->
+    <!-- (Remove category- prefix from tags) -->
     {{ else if in .Page.Title "-" }}
     {{ $parts := split .Page.Title "-"}}
     {{ $len := len $parts }}
     {{ $name := last (sub $len 1) $parts}}
     <title>{{ delimit $name " " }} Projects | {{ .Site.Title }}</title>
     <meta name="title" content="{{ delimit $name ' ' }} Projects | {{ .Site.Title }}">
-    <!-- "Title | Leon Overweel" for project pages -->
+    <meta name="description" content="All the projects I've done with {{ delimit $name ' ' }}.">
+
+    <!-- Project pages -->
     {{ else }}
     <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
     <meta name="title" content="{{ .Page.Title }} | {{ .Site.Title }}">
+    <meta name="description" content="{{ .Page.Description }}">
     {{ end }}
 
-    <!-- CSS and fonts -->
+    <!-- CSS AND FONTS -->
+
     <link rel="stylesheet" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic|Poppins:semibold"
         rel="stylesheet">
