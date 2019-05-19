@@ -1,18 +1,24 @@
 <head>
+    <!-- Title (HTML tag and meta tag)-->
     <!-- "Leon Overweel" for the home page -->
     {{ if .IsHome }}
-    <title>{{ .Site.Title}}</title>
-    <!-- "Tag | Leon Overweel" for list pages -->
+    <title>{{ .Site.Title }}</title>
+    <meta name="title" content="{{ .Site.Title }}">
+    <!-- "Tag | Leon Overweel" for list pages (split off category prefix from tag) -->
     {{ else if in .Page.Title "-" }}
-    <!-- (split off category prefix from tag) -->
     {{ $parts := split .Page.Title "-"}}
     {{ $len := len $parts }}
     {{ $name := last (sub $len 1) $parts}}
-    <title>{{ delimit $name " " }} | {{ .Site.Title }}</title>
+    <title>{{ delimit $name " " }} Projects | {{ .Site.Title }}</title>
+    <meta name="title" content="{{ delimit $name ' ' }} Projects | {{ .Site.Title }}">
     <!-- "Title | Leon Overweel" for project pages -->
     {{ else }}
     <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
+    <meta name="title" content="{{ .Page.Title }} | {{ .Site.Title }}">
     {{ end }}
+
+    <!-- CSS and fonts -->
     <link rel="stylesheet" href="/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic|Poppins:semibold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic|Poppins:semibold"
+        rel="stylesheet">
 </head>
