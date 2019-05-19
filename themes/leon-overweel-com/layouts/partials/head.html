@@ -5,8 +5,13 @@
     {{ if .IsHome }}
     <title>{{ .Site.Title }}</title>
     <meta name="title" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Site.Title }}">
+
     <meta name="description"
         content="Hi, I'm Leon! I'm an MSc Artificial Intelligence student at the University of Edinburgh. Previously, I studied Computer Science at Delft University of Technology.">
+    <meta property="og:description"
+        content="Hi, I'm Leon! I'm an MSc Artificial Intelligence student at the University of Edinburgh. Previously, I studied Computer Science at Delft University of Technology.">
+
 
     <!-- List pages -->
     <!-- (Remove category- prefix from tags) -->
@@ -16,13 +21,19 @@
     {{ $name := last (sub $len 1) $parts}}
     <title>{{ delimit $name " " }} Projects | {{ .Site.Title }}</title>
     <meta name="title" content="{{ delimit $name ' ' }} Projects | {{ .Site.Title }}">
+    <meta property="og:title" content="{{ delimit $name ' ' }} Projects | {{ .Site.Title }}">
+
     <meta name="description" content="All the projects I've done with {{ delimit $name ' ' }}.">
+    <meta property="og:description" content="All the projects I've done with {{ delimit $name ' ' }}.">
 
     <!-- Project pages -->
     {{ else }}
     <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
     <meta name="title" content="{{ .Page.Title }} | {{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Page.Title }} | {{ .Site.Title }}">
+
     <meta name="description" content="{{ .Page.Description }}">
+    <meta property="og:description" content="{{ .Page.Description }}">
     {{ end }}
 
     <!-- CSS AND FONTS -->
