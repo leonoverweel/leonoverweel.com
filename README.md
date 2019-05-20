@@ -4,7 +4,7 @@ This is the repository for my personal portfolio website, [leonoverweel.com](htt
 
 To build the site locally:
 
-1. Download and install [Hugo](https://gohugo.io/getting-started/installing).
+1. Download and [install Hugo](https://gohugo.io/getting-started/installing).
 1. Clone this repository.
 1. Run `hugo server` (with `- D` to also show draft posts).
 1. Navigate to `localhost:1313` to see the site live.
