@@ -6,7 +6,7 @@ To build the site locally:
 
 1. Download and [install Hugo](https://gohugo.io/getting-started/installing).
 1. Clone this repository.
-1. Run `hugo server` (with `- D` to also show draft posts).
+1. Run `hugo server` (with `-D` to also show draft posts).
 1. Navigate to `localhost:1313` to see the site live.
 
 If you use my site template for your own website, please let me know by dropping me an email (available on [my GitHub profile](https://github.com/leonoverweel)).
