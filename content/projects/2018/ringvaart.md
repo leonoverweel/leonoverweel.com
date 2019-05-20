@@ -1,5 +1,5 @@
 ---
-title: "Ringvaart - Keihard voor KiKa"
+title: "Ringvaart: Keihard voor KiKa"
 date: 2018-06-06
 aliases:
   - /ringvaart
