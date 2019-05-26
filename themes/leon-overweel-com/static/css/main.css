@@ -151,9 +151,9 @@ figure>figcaption>p {
 }
 
 .intro>img {
-    width: 11rem;
-    height: 11rem;
-    border-radius: 6rem;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
     margin: 1rem 0;
 }
 
