@@ -151,10 +151,11 @@ figure>figcaption>p {
 }
 
 .intro>img {
-    width: 180px;
-    height: 180px;
-    border-radius: 90px;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 6rem;
     margin: 1rem 0;
+    align-self: center;
 }
 
 .intro>div {
