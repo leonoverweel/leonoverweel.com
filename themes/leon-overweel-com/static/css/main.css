@@ -156,6 +156,7 @@ figure>figcaption>p {
     border-radius: 6rem;
     margin: 1rem 0;
     align-self: center;
+    flex-shrink: 0;
 }
 
 .intro>div {
