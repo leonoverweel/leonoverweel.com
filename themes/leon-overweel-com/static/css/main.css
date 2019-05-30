@@ -388,6 +388,16 @@ div.category {
     justify-self: center;
 }
 
+.footer {
+    width: 100%;
+    background-color: #f2f4f9;
+    color: #999;
+}
+
+.footer * > a {
+    color: #999;
+}
+
 @media screen and (max-width: 50rem) {
     .centered-column-wide {
         max-width: 40rem;
