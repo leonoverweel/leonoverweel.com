@@ -392,6 +392,7 @@ div.category {
     width: 100%;
     background-color: #f2f4f9;
     color: #999;
+    font-size: 0.85rem;
 }
 
 .footer * > a {
