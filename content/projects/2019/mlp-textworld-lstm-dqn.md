@@ -1,5 +1,5 @@
 ---
-title: "Reinforcement Learning for Text-Based Games"
+title: "Reinforcement Learning for Text Games"
 date: 2019-03-22
 aliases:
   - /textworld
