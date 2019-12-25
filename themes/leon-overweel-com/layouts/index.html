@@ -6,17 +6,15 @@
         <div class="intro">
             <div>
                 <p>
-                    Hi, I'm Leon! I'm an MSc Artificial Intelligence student at the University of Edinburgh, currently
-                    doing my thesis at Adyen in Amsterdam. Previously, I studied Computer Science at Delft University of
-                    Technology.
+                    Hi, I'm Leon! I'm a deep learning engineer at <a href="https://www.plumerai.com/">Plumerai</a>,
+                    researching binarized neural networks and working on <a href="https://larq.dev">Larq</a>.
+                    Previously, I studied computer science at TU Delft (BSc) and artificial intelligence student at the
+                    University of Edinburgh (MSc).
                 </p>
                 <p>
-                    Use the links below to contact me in English or Dutch, view my resume (<a
-                        href="https://leonoverweel.github.io/resume">full online</a> or <a
-                        href="https://github.com/leonoverweel/resume/blob/master/single-page/leon-overweel-resume.pdf">one-page
-                        PDF</a>), or check out the rest of this site for my <a href="#current-projects">current
-                        projects</a>, <a href="#past-projects">past projects</a>, <a href="#skills">skills</a>, and
-                    <a href="#photography">photography</a>.
+                    Use the links below to contact me in English or Dutch, or check out the rest of this site for my <a
+                        href="#current-projects">current projects</a>, <a href="#past-projects">past projects</a>, <a
+                        href="#skills">skills</a>, and <a href="#photography">photography</a>.
                 </p>
             </div>
             <img src="images/headshot.jpg" />
@@ -63,7 +61,7 @@
 <div class="centered-column">
     <h2><a name="current-projects">Current Projects ✨</a></h2>
     <p>
-        Here's what I'm working on, from my day-to-day university program to my currently active side projects.
+        Here's what I'm working on, mostly in the form of side projects.
     </p>
 </div>
 <div class="centered-column wide current-projects">
@@ -96,7 +94,7 @@
         {{end}}
     </p>
 
-    {{ range (where .Pages "Section" "projects").GroupByDate "2006" }}
+    {{ range (where .Site.RegularPages "Section" "projects").GroupByDate "2006" }}
     <button class="year-toggle year-open">
         {{- .Key -}}
         {{- range .Pages -}}
